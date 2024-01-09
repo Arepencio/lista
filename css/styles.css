@@ -1,0 +1,76 @@
+:root {
+    --primario: #fd558d;
+    --primarioOscuro: #e74e81;
+    --blanco: #ffffff;
+    --fuentePrincipal: 'Oswald'
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/** Globales **/
+
+body {
+    background-color: var(--primarioOscuro);
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.contenedor {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+footer {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco)
+}
+
+
+/** Principal **/
+
+.principal {
+    background-color: var(--primario);
+    box-shadow: 1px 1px 36px -8px rgba(0, 0, 0, 0.75);
+    padding: 2rem;
+}
+
+
+/** Tabla/Lista **/
+
+.lista,
+.lista__titulo,
+.lista__dato {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.lista__titulo,
+.lista__dato {
+    background-color: white;
+}
+
+.lista_fila {
+    padding: 1rem;
+}
