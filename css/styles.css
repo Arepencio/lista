@@ -33,7 +33,7 @@ img {
 }
 
 .contenedor {
-    width: 60rem;
+    width: 100rem;
     margin: 0 auto;
 }
 
@@ -59,6 +59,15 @@ footer {
 
 /** Tabla/Lista **/
 
+.lista {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo {
+    width: 50%;
+}
+
 .lista,
 .lista__titulo,
 .lista__dato {
@@ -71,6 +80,6 @@ footer {
     background-color: white;
 }
 
-.lista_fila {
+.lista__dato {
     padding: 1rem;
 }
